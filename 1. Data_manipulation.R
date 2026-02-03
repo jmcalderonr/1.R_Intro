@@ -80,7 +80,7 @@ stroke |> arrange(desc(doa))
 #========================================================
 stroke_m_7 <- stroke |>  
   filter(sex == 'male', gcs >= 7) #gcs: Glasgow Coma Scale
-stroke_m_7 |> head()
+stroke_m_7 |> head(10)
 
 #In base r:
 #stroke_m_7 <- stroke[stroke$sex == "male" & stroke$gcs >= 7, ]
@@ -88,7 +88,7 @@ stroke_m_7 |> head()
 
 stroke_high_BP <- stroke |>  
   filter(sbp > 130 | dbp > 90) #systolic and diastolic blood pressure
-stroke_high_BP |> head()
+stroke_high_BP |> head(10)
 
 #In base r:
 #stroke_high_BP <- stroke[stroke$sbp > 130 | stroke$dbp > 90, ]
