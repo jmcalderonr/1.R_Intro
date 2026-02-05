@@ -1,6 +1,9 @@
 #========================================================
-#Data manipulation
-#https://bookdown.org/drki_musa/dataanalysis/data-wrangling.html#datasets
+# Data manipulation
+# Author: Johan Manuel Calderón
+# Basado en: https://bookdown.org/drki_musa/dataanalysis/data-wrangling.html#datasets
+#========================================================
+# Load libraries
 #========================================================
 #install.packages("tidyverse", dependencies = TRUE)
 #install.packages("readxl")
